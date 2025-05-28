@@ -1,0 +1,50 @@
+body{
+     font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: blueviolet;
+    font-style: italic;
+    color: white;
+    
+    padding: 20px;
+}
+header ul{
+    
+    height: 4rem;
+    gap: 50px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+#contenedorproductos{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+footer{
+    background-color: aqua;
+    font-size: small;
+}
+li{
+    list-style: none;/*saca los puntitos de la lista*/
+    
+}
+a{
+    text-decoration: none;/*saca el subrayado de los links*/
+    color: blue;/*cambia el color del texto de los links*/
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

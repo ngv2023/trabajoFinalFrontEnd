@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--iconos de fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/logoMariposa.png" alt="foto mariposa">
+        <h3>
+            Fabricantes de Páginas WEB
+        </h3>
+   
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a> </li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a> </li>
+                <li><a href="#">Contacto</a> </li>
+            </ul> 
+        </nav>
+    </header>
+    
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26260.163394668714!2d-58.428620800000004!3d-34.64155765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1744332218749!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        <section>
+            <h3>Hablanos de vos</h3>
+            <action="https://formspree.io/f/mwpoebyy"
+            method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h3>Cómo lo hacemos</h3>
+            <video  controls
+                width="60%"
+                muted
+
+        >
+            <source
+                src="videos/_Conectando Talento Tech_, el evento de tecnología e innovación │N20_30│26-04-24.mp4"
+                type="video/mp4"
+            >
+            <track
+                src="videos/spanish.vtt"
+                kind="subtitles"
+                srclang="es"
+                label="Español"
+                default
+            />
+        </section>
+        <section>
+            <h2>Productos</h2>
+            <div id="contenedorproductos">
+                <div>
+                    <img src="./imagenes/book-3964050_1280.jpg" alt="imagen de libro">
+                    <h3>Página 1</h3>
+                    <p>Precio 10.000 </p>
+                </div>
+                 <div>
+                    <img src="./imagenes/book-8643904_1280.jpg" alt="imagen de libro">
+                    <h3>Página 2</h3>
+                    <p>Precio 15.000 </p>
+                </div>
+                 <div>
+                    <img src="./imagenes/book-8643905_1280.jpg" alt="imagen de libro">
+                    <h3>Página 3</h3>
+                    <p>Precio 20.000 </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy 2025 Fabricantes de Páginas Web. Todos los derechos reservados
+        <h3>Seguinos en nuestras redes</h3>
+        <ul>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.tiktok.com/es/" target="_blank"><i class="fa-brands fa-tiktok"></i> Tik tok</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+        </ul>
+       
+    </footer>
+</body>
+</html>
