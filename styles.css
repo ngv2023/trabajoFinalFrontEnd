@@ -17,6 +17,7 @@ header ul{
     justify-content: end;
     flex-wrap: wrap;
 }
+/* comentario cualquiera para probar git*/
 #contenedorproductos{
     display: flex;
     gap: 2rem;
